@@ -17,23 +17,9 @@ With my experience in CX technology and customer-first thinking, I can bring the
 
 ## What you can find on my Github
  - This profile readme file, inspired by this [video](https://www.youtube.com/watch?v=DWFs6aqknqw)
- - The code for my [Business Website](https://www.futurecx.nl)
- - My VS Code extensions and settings
+ - The code for my [Business Website](https://www.futurecx.nl) | [code](https://github.com/Future-CX/Futurecx-nl)
+ - My Mac setup, settings and apps I use [here](https://github.com/Future-CX/Future-CX/blob/main/mymac.md) 
+ - My VS Code extensions and settings [here](https://github.com/Future-CX/Future-CX/blob/main/vscode.md)
  - many more
 
 [![Future CX's GitHub stats](https://github-readme-stats.vercel.app/api?username=future-cx&show_icons=true&theme=transparent)](https://github.com/future-cx/github-readme-stats)
-
-<!--
-**Future-CX/Future-CX** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
