@@ -49,97 +49,10 @@ I found it easy to launch VS Code from the terminal, as it opens a VS Code works
 
 ```json
 {
-  "codesnap.backgroundColor": "#000000",
-  "codesnap.containerPadding": "0px",
-  "codesnap.showWindowControls": false,
-  "codesnap.transparentBackground": true,
+  "cSpell.enableFiletypes": ["mdx"],
   "cSpell.enabled": true,
-  "cSpell.enableFiletypes": [
-    "mdx"
-  ],
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.detectIndentation": true,
-  "editor.fontFamily": "Anonymous Pro",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.formatOnPaste": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 0,
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "keyword.operator",
-          "punctuation.separator"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#F5F"
-        }
-      },
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-        "settings": {
-          "foreground": "#19354900"
-        }
-      }
-    ]
-  },
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "emmet.showAbbreviationSuggestions": false,
-  "eslint.enable": true,
-  "eslint.validate": [
-    "vue",
-    "react",
-    "typescript",
-    "html",
-    "javascript"
-  ],
-  "explorer.openEditors.visible": 1,
-  "extensions.ignoreRecommendations": true,
-  "files.autoSave": "onWindowChange",
-  "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "never",
-  "markdown.preview.fontSize": 36,
-  "screencastMode.keyboardOptions": {
-    "showCommandGroups": false,
-    "showCommands": false,
-    "showKeybindings": true,
-    "showKeys": false,
-    "showSingleEditorCursorMoves": true
-  },
-  "search.exclude": {
-    "**/*.code-search": true,
-    "**/bower_components": true,
-    "**/node_modules": true
-  },
-  "search.useIgnoreFiles": false,
-  "svelte.enable-ts-plugin": true,
-  "terminal.integrated.fontSize": 14,
-  "vsicons.dontShowNewVersionMessage": true,
-  "window.zoomLevel": 4,
-  "workbench.colorTheme": "Just Black",
-  "workbench.editor.labelFormat": "medium",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.sideBar.location": "left",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -150,9 +63,6 @@ I found it easy to launch VS Code from the terminal, as it opens a VS Code works
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -167,14 +77,108 @@ I found it easy to launch VS Code from the terminal, as it opens a VS Code works
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Anonymous Pro",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 0,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["keyword.operator", "punctuation.separator"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.line",
+          "comment.block.documentation",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#0F0"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "emmet.showAbbreviationSuggestions": false,
+  "eslint.enable": true,
+  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+  "explorer.openEditors.visible": 1,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onWindowChange",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "markdown.preview.fontSize": 36,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "search.useIgnoreFiles": false,
+  "terminal.integrated.fontSize": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": 4,
+  "workbench.colorTheme": "Just Black",
+  "workbench.editor.labelFormat": "medium",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "editor.largeFileOptimizations": false,
+  "editor.unicodeHighlight.nonBasicASCII": false
 }
+
 ```
